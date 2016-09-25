@@ -86,3 +86,8 @@ hr.bottom-break{
 .events-bg{
 	background-color: #A9A9A9;
 }
+
+ul{
+	list-style: none;
+	font-size: 2em;
+}
