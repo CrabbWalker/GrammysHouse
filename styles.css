@@ -39,6 +39,10 @@ h5, h6{
 	float: left;
 }
 
+.img-3{
+	background-image: url(img/children1.jpg);
+	background-repeat: no-repeat;
+}
 .footerdiv{
 	background: url(img/FooterPic.jpg) no-repeat center	scroll;
 	min-height: 100vh;
