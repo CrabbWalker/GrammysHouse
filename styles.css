@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+p, h1, h2, h3, h4{
+ 	font-family: 'Crimson Text', sans-serif;
+ 	font-size: 35px;
+}
+
+h5, h6{
+	font-family: 'Crimson Text', sans-serif;
+  	font-size: 70px;
+}
+
+#containerdiv{
+	background: url(img/child1.jpg) no-repeat center scroll;
+	min-height: 90vh;
+    background-size: cover;
+}
+
+.infodiv{
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.img-1{
+	background-image: url(img/GrammyLogoWhite.png);
+	background-repeat: no-repeat;
+	padding-bottom: 40px;
+}
+
+.img-2{
+	background-image: url(img/Portrait1.jpg);
+	background-repeat: no-repeat;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+
+.footerdiv{
+	background: url(img/FooterPic.jpg) no-repeat center	scroll;
+	min-height: 100vh;
+	background-size: cover; 
+}
+.white-text{
+	color: white;
+}
+
+.blue-text{
+	color: #337ab7;
+}
+
+.margin-break{
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.padding-break{
+	padding-top: 200px;
+}
+
+.p-break{
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 20%;
+}
+
+hr.break{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #000;
+}
+
+hr.bottom-break{
+	margin: 20px 20% 20px 20%;
+    border-top: 1px solid #fff;
+}
+
+.top-button-break{
+	padding-top: 50px;
+}
+
+.events-bg{
+	background-color: #A9A9A9;
+}
