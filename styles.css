@@ -104,7 +104,16 @@ hr.bottom-break{
 	padding-top: 50px;
 }
 
-.events-bg{
+.button-break{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.light-gray-bg{
+	background-color: #f2f2f2;
+}
+
+.gray-bg{
 	background-color: #A9A9A9;
 }
 
