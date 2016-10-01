@@ -17,17 +17,25 @@ h5, h6{
 }
 
 .infodiv{
-	position: absolute;
-	text-align: center;
-	top: 20%;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding-left: 10px;
-	padding-right: 10px;
+  width: 50%;
+  margin: auto;
+  
+}
+
+.infodiv-img{
+  background-image: url(img/GrammyLogoWhite.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 200px;
+  margin: auto;
+}
+
+.infodiv .white-text{
+  text-align: center;
 }
 
 .img-1{
-	background-image: url(img/GrammyLogoWhite.png);
 	background-repeat: no-repeat;
 	padding-bottom: 40px;
 }
@@ -56,7 +64,7 @@ h5, h6{
 .footerdiv{
 	background: url(img/FooterPic.jpg) no-repeat center	scroll;
 	min-height: 100vh;
-	background-size: cover; 
+	background-size: cover;
 }
 .white-text{
 	color: white;
