@@ -19,7 +19,18 @@ h5, h6{
 .infodiv{
   width: 50%;
   margin: auto;
-  
+  padding-top: 20vh;
+}
+
+/*This is a media query. It is setup so when the screen width is smaller than
+992px wide it will start using the styles within it.*/
+@media only screen and (max-width : 992px) {
+
+  .infodiv{
+    padding-top: 10vh;
+    width: 90%
+  }
+
 }
 
 .infodiv-img{
@@ -33,6 +44,11 @@ h5, h6{
 
 .infodiv .white-text{
   text-align: center;
+}
+
+.events iframe ._2p3a{
+  width: 50% !important;
+  margin: auto;
 }
 
 .img-1{
