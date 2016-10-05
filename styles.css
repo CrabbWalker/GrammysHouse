@@ -14,9 +14,9 @@ h5, h6{
 	background: url(img/child1.jpg) no-repeat center scroll;
 	min-height: 90vh;
     background-size: cover;
-    -moz-box-shadow: 0px 20px 30px #2c2c2d;
-  	-webkit-box-shadow: 0px 20px 30px #2c2c2d;
-  	box-shadow: 0px 20px 30px #2c2c2d;
+    -moz-box-shadow: 0px 20px 20px #2c2c2d;
+  	-webkit-box-shadow: 0px 20px 20px #2c2c2d;
+  	box-shadow: 0px 20px 20px #2c2c2d;
 }
 
 .infodiv{
@@ -118,7 +118,7 @@ h5, h6{
 
 hr.break{
 	margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     border-top: 1px solid #000;
 }
 
