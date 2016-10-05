@@ -14,12 +14,15 @@ h5, h6{
 	background: url(img/child1.jpg) no-repeat center scroll;
 	min-height: 90vh;
     background-size: cover;
+    -moz-box-shadow: 0px 20px 30px #2c2c2d;
+  	-webkit-box-shadow: 0px 20px 30px #2c2c2d;
+  	box-shadow: 0px 20px 30px #2c2c2d;
 }
 
 .infodiv{
   width: 50%;
   margin: auto;
-  padding-top: 20vh;
+  padding-top: 30vh;
 }
 
 /*This is a media query. It is setup so when the screen width is smaller than
@@ -27,7 +30,7 @@ h5, h6{
 @media only screen and (max-width : 992px) {
 
   .infodiv{
-    padding-top: 10vh;
+    padding-top: 30vh;
     width: 90%
   }
 
@@ -37,8 +40,8 @@ h5, h6{
   background-image: url(img/GrammyLogoWhite.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 150px;
-  width: 200px;
+  height: 225px;
+  width: 300px;
   margin: auto;
 }
 
