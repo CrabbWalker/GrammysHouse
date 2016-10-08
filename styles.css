@@ -144,6 +144,10 @@ hr.bottom-break{
 	background-color: #A9A9A9;
 }
 
+.sol-bor{
+	border: 1px solid black;
+}
+
 ul{
 	list-style: none;
 	font-size: 2em;
