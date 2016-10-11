@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 
 /*Global Styles*/
-p, h1, h2, h3, h4{
+p, h1, h2, h3, h4, a{
  	font-family: 'Crimson Text', sans-serif;
 }
 
@@ -9,7 +9,7 @@ h1, h2, h3, h4{
  	font-size: 35px;
 }
 
-p{
+p, a{
   font-size: 25px;
 }
 
@@ -190,4 +190,18 @@ hr.bottom-break{
 ul{
 	list-style: none;
 	font-size: 2em;
+}
+
+/*Contact*/
+.add-resources a{
+  display: block;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.add-resources a:hover{
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 5px;
 }
