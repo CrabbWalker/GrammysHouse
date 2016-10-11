@@ -1,8 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 
+/*Global Styles*/
 p, h1, h2, h3, h4{
  	font-family: 'Crimson Text', sans-serif;
- 	font-size: 25px;
+}
+
+h1, h2, h3, h4{
+ 	font-size: 35px;
+}
+
+p{
+  font-size: 25px;
 }
 
 h5, h6{
@@ -19,6 +27,8 @@ h5, h6{
   	box-shadow: 0px 20px 20px #2c2c2d;
 }
 
+
+/*Info*/
 .infodiv{
   width: 50%;
   margin: auto;
@@ -53,12 +63,22 @@ h5, h6{
   text-align: center;
 }
 
+.info img{
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 40px #000;
+}
+
 .events iframe ._2p3a{
   width: 50% !important;
   margin: auto;
 }
 
-.img-1{
+
+/*You don't need background-image when the html is already making an image with the <img> element.*/
+
+/*.img-1{
 	background-repeat: no-repeat;
 	padding-bottom: 40px;
 }
@@ -92,7 +112,7 @@ h5, h6{
 	background-repeat: no-repeat;
 	max-width: 100%;
 	max-height: 100%;
-}
+}*/
 
 .fb-btn{
 	background-image: url(img/facebookbtn.png);
