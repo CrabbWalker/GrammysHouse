@@ -6,11 +6,11 @@ p, h1, h2, h3, h4, a{
 }
 
 h1, h2, h3, h4{
- 	font-size: 35px;
+ 	font-size: 45px;
 }
 
 p, a{
-  font-size: 25px;
+  font-size: 35px;
 }
 
 h5, h6{
@@ -45,7 +45,7 @@ h5, h6{
   }
 
   a, p{
-    font-size: 20px;
+    font-size: 30px;
   }
 
 }
