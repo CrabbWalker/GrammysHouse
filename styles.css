@@ -5,6 +5,7 @@ p, h1, h2, h3, h4, a{
  	font-family: 'Crimson Text', sans-serif;
 }
 
+/*Target audience is 55+*/
 h1, h2, h3, h4{
  	font-size: 45px;
 }
@@ -86,45 +87,6 @@ h5, h6{
   width: 50% !important;
   margin: auto;
 }
-
-
-/*You don't need background-image when the html is already making an image with the <img> element.*/
-
-/*.img-1{
-	background-repeat: no-repeat;
-	padding-bottom: 40px;
-}
-
-.img-2{
-	background-image: url(img/Portrait1.jpg);
-	background-repeat: no-repeat;
-	margin: 0 20px 20px 0;
-	float: left;
-}
-
-.img-3{
-	background-image: url(img/children1.jpg);
-	background-repeat: no-repeat;
-}
-
-.img-4{
-	background-image: url(img/children2.jpg);
-	background-repeat: no-repeat;
-}
-
-.img-5{
-	background-image: url(img/children3.jpg);
-	background-repeat: no-repeat;
-	max-width: 100%;
-	max-height: 100%;
-}
-
-.img-6{
-	background-image: url(img/children4.jpg);
-	background-repeat: no-repeat;
-	max-width: 100%;
-	max-height: 100%;
-}*/
 
 .fb-btn{
 	background-image: url(img/facebookbtn.png);
