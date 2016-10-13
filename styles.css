@@ -161,8 +161,9 @@ hr.bottom-break{
 	max-width: 100%;
 }
 
-.fa-mobile{
+.fb-mobile{
   display: none;
+  height: 0%;
 }
 
 .fa-facebook-official{
@@ -176,6 +177,7 @@ hr.bottom-break{
 
   .fb-mobile{
     display: block;
+    height: 100%;
   }
 }
 
