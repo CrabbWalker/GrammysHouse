@@ -46,7 +46,7 @@ h5, h6{
   }
 
   a, p{
-    font-size: 30px;
+    font-size: 25px;
   }
 
 }
@@ -159,6 +159,24 @@ hr.bottom-break{
 .fb-resize{
 	max-height: 100%;
 	max-width: 100%;
+}
+
+.fa-mobile{
+  display: none;
+}
+
+.fa-facebook-official{
+  color: #3b5998;
+}
+
+@media only screen and (max-width : 992px) {
+  .fb-resize{
+    display: none;
+  }
+
+  .fb-mobile{
+    display: block;
+  }
 }
 
 ul{
