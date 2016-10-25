@@ -54,7 +54,7 @@ h5, h6{
 @media only screen and (max-width : 1400px) {
 
   .infodiv{
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 
 }
@@ -69,6 +69,7 @@ h5, h6{
 
 .infodiv .white-text{
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .info h6{
